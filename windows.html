@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>N1</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styleWindows.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm fixed-top bg-dark navbar-dark d-flex justify-content-between">
+        <a class="navbar-brand" href="./index.html">
+            <img src="./imagens/logo.png" alt="" class="logo">
+        </a>
+      
+        <ul class="navbar-nav mr-5">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="./so.html" id="navbardrop" data-toggle="dropdown">
+                Sistemas Operacionais
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="./so.html">O que é</a>
+              <a class="dropdown-item" href="./so.html">Tipos</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Windows
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#sectionW1">Organização de Pastas</a>
+              <a class="dropdown-item" href="#sectionW2">Comandos para Pastas</a>
+              <a class="dropdown-item" href="#sectionW3">Comandos para Arquivos</a>
+            </div>
+            </div>
+          </li>
+      
+          <li class="nav-item dropdown mr-5">
+            <a class="nav-link dropdown-toggle" href="./linux.html" id="navbardrop" data-toggle="dropdown">
+                Linux
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="./linux.html#sectionL1">Virtual Box</a>
+              <a class="dropdown-item" href="./linux.html#sectionL2">Instalação C e C++</a>
+              <a class="dropdown-item" href="./linux.html#sectionL3">Servidor Web</a>
+              <a class="dropdown-item" href="./linux.html#sectionL4">Instalação VSCode</a>
+              <a class="dropdown-item" href="./linux.html#sectionL5">Estrutura Pastas</a>
+              <a class="dropdown-item" href="./linux.html#sectionL6">Comandos Pastas</a>
+              <a class="dropdown-item" href="./linux.html#sectionL7">Comandos Arquivos</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      <section id="sectionW1">
+        <div style="height: 15vh;"></div>
+        <div class="w-60 mr-3">
+          <h4>Organização de pastas</h4>
+          
+          <div class="d-flex align-items-center">
+
+            <div style="width: 60%; padding: 0 50px;" class="d-flex flex-column align-items-between">
+              <div class="mb-3">
+                <h6>Disco Local (C:)</h6>
+                <p>
+                  A unidade C é considerada a unidade de disco rígido principal do sistema e é usada para armazenar o sistema operacional, 
+                  arquivos do sistema e outros aplicativos e seus arquivos relacionados.
+                </p>
+              </div>
+              
+              <div class="mb-3">
+                <h6>Usuários</h6>
+                <p>
+                  Nos Windows 7 e Vista, a pasta “Documents and settings” passou a se chamar “Usuários”. Nela você encontra diretórios para todas as contas 
+                  criadas no seu Windows. Ao acessá-las você confere as pastas padrão para músicas, imagens, vídeos e outros documentos. 
+                </p>
+              </div>
+
+              <div class="mb-3">
+                <h6>Arquivos de programas (Program Files) </h6>
+                <p>
+                  Aqui é onde praticamente todos os programas instalados no computador são inseridos. Ao acessar esta, você observa que há dezenas de pastas 
+                  com os nomes dos aplicativos ou de seus desenvolvedores, o que inclui quase tudo o que é necessário para que os programas funcionem. 
+                </p>
+              </div>
+
+              <div>
+                <h6>Windows </h6>
+                <p>
+                  Esta pasta é a mais importante do computador, pois nela se encontra toda a estrutura do sistema operacional. É importante que você nunca apague 
+                  nada dentro dela ou mexa em seus arquivos e pastas, a menos que tenha muito conhecimento na área. 
+                </p>
+              </div>
+            </div>
+            
+            <div>
+              <img src="./imagens/pastasWindows.jpg" alt="" style="border-radius: 15px; height: 70vh;">
+            </div>
+          </div>
+
+        </div>
+      </section>
+      
+      <section id="sectionW2">
+        <div style="height: 15vh;"></div>
+        <div class="mr-3">
+          <h4>Comandos para navegação e manipulação de pastas</h4>
+    
+          <ul>
+            <li><strong>MD</strong> : Criar uma Nova pastas</li>
+            <div class="cmd">
+              <pre>C:\Users\User\Pessoa> md Crianca</pre>
+            </div>
+
+            <li><strong>DIR</strong> : Listando arquivos e pastas</li>
+            <div class="cmd">
+              <pre>C:\Users\User\Pessoa> dir</pre>
+              <pre>Pasta de C:\User\User\Pessoa</pre>
+              <pre>
+                27/04/2022  20:02    DIR          .
+                27/04/2022  20:02    DIR          ..
+                27/04/2022  20:02    DIR          Crianca
+                27/04/2022  19:57    DIR          Fisica
+                27/04/2022  19:57    DIR          Juridica
+                            0 arquivo(s)          0 bytes
+                            5 pasta(s)   25.186.639.872 bytes disponívei
+              </pre>
+            </div>
+
+            <li><strong>MOVE</strong> : Mover arquivos ou renomear pastas</li> 
+            <div class="cmd">
+              <pre>C:\Users\User\Pessoa> move Crianca Fisica</pre>
+            </div>
+
+            <li><strong>CD</strong> : Entrar em uma pasta</li>
+            <div class="cmd">
+              <pre>C:\Users\User\Pessoa> cd Crianca</pre>
+            </div>
+
+            <li><strong>CD..</strong> : Retornar para a pasta anterior</li> 
+            <div class="cmd">
+              <pre>C:\Users\User\Pessoa\Crianca> cd..</pre>
+            </div>
+
+            <li><strong>RD</strong> : Remover pastas</li> 
+            <div class="cmd">
+              <pre>C:\Users\User\Pessoa> rd Crianca</pre>
+            </div>
+          </ul>
+        </div>
+      </section>
+      
+      <section id="sectionW3">
+        <div style="height: 15vh;"></div>
+        <div class="w-70 mr-3">
+          <h4>Comandos para navegação e manipulação de arquivos</h4>
+    
+          <ul>
+            <li><strong>COPY</strong> : Copiar arquivos [copy arquivo destino]</li>
+            <div class="cmd">
+              <pre>C:\Users\User\Pessoa\Fisica> copy cpf.jpg C:\Users\User\Pessoa</pre>
+            </div>
+
+            <li><strong>MOVE</strong> : Mover arquivos [move arquivo destino]</li>  
+            <div class="cmd">
+              <pre>C:\Users\User\Pessoa> move cpf.jpg C:\Users\User\Pessoa\Fisica</pre>
+            </div>
+
+            <li><strong>ERASE</strong> : Deletar arquivos [erase arquivo]</li>
+            <div class="cmd">
+              <pre>C:\Users\User\Pessoa\Fisica> erase cpf.jpg</pre>
+            </div>
+
+            <li><strong>DEL</strong> : Deletar arquivos [erase arquivo]</li>
+            <div class="cmd">
+              <pre>C:\Users\User\Pessoa\Fisica> del cpf.jpg</pre>
+            </div>
+
+            <li><strong>REN</strong> : Renomear arquivos [ren nomeArquivo novoNomeArquivo]</li> 
+            <div class="cmd">
+              <pre>C:\Users\User\Pessoa\Fisica> ren cpf.jpg cpf2.jpg</pre>
+            </div>
+            
+            <li><strong>ASSOC</strong> : Exibe ou modifica associações de extensões de arquivo</li> 
+            <div class="cmd">
+              <pre>C:\Users\User\Pessoa\Fisica>assoc .jpg <br>.jpg=jpegfile
+              </pre>
+            </div>
+            
+            <li><strong>ATTRIB</strong> : Exibe ou altera atributos de arquivos</li> 
+            <div class="cmd">
+              <pre>C:\Users\User\Pessoa\Fisica>attrib /? <br> 
+                Exibe ou altera atributos de arquivo.
+                
+                ATTRIB [+R | -R] [+A | -A] [+S | -S] [+H | -H] [+O | -O] [+I | -I] [+X | -X] [+P | -P] [+U | -U]
+                        [unidade:][caminho][nome_de_arquivo] [/S [/D]] [/L]
+                
+                  +   Define um atributo.
+                  -   Limpa um atributo.
+                  R   Atributo de arquivo somente leitura.
+                  A   Atributo de arquivo morto.
+                  S   Atributo de arquivo do sistema.
+                  H   Atributo de arquivo oculto.
+                  O   Atributo offline.
+                  I   Atributo de arquivo sem conteúdo indexado.
+                  X   Sem atributo de arquivo de remoção.
+                  V   Atributo de integridade.
+                  P   Atributo fixado.
+                  U   Atributo desafixado.
+                  B   Atributo de Blob SMR.
+                  [unidade:][caminho][nome_de_arquivo]
+                      Especifica um ou mais arquivos para o atributo processar.
+                  /S  Processa os arquivos correspondentes na pasta atual
+                      e em todas as subpastas.
+                  /D  Inclui pastas no processamento.
+                  /L  Trabalha nos atributos do Link Simbólico versus
+                      o destino do Link Simbólico
+              </pre>
+            </div>
+            <li><strong>REPLACE</strong> : Substitui arquivos</li> 
+            <div class="cmd">
+              <pre>C:\Users\User\Pessoa>replace /?
+                Substitui arquivos.
+                
+                REPLACE [unidade1:][cam1]arquivo [unidade2:][cam2] [/A] [/P] [/R] [/W]
+                REPLACE [unidade1:][cam1]arquivo [unidade2:][cam2] [/P] [/R] [/S] [/W] [/U]
+                
+                  [unidade1:][cam1]arquivo Especifica o(s) arquivo(s) de origem.
+                  [unidade2:][cam2]        Especifica a pasta onde os arquivos deverão
+                                          ser substituídos.
+                  /A                      Adiciona novos arquivos à pasta de destino.
+                                          Não podem ser usados com as opções /S ou /U.
+                  /P                      Pede confirmação antes de substituir um arquivo ou
+                                          de adicionar um arquivo de origem.
+                  /R                      Substitui arquivos de somente leitura e arquivos
+                                          sem proteção.
+                  /S                      Substitui arquivos em todas as subpastas
+                                          da pasta de destino. Não pode ser usado com
+                                          a opção /A.
+                  /W                      Espera um disco ser inserido antes de começar.
+                  /U                      Substitui (atualiza) somente arquivos mais antigos
+                                          que os arquivos de origem. Não pode ser usado com
+                                          a opção /A.
+              </pre>
+            </div>
+          </ul>
+        </div>
+      </section>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

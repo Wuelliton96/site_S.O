@@ -1,0 +1,19 @@
+body {
+    background-color: #F9F9F9;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+h4 {
+    text-transform: uppercase;
+}
+
+#section1SO img {
+    width: 100%;
+}

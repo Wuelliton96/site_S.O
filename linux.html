@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>N1</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styleLinux.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark fixed-top navbar-dark d-flex justify-content-between">
+        <a class="navbar-brand" href="./index.html">
+            <img src="./imagens/logo.png" alt="" class="logo">
+        </a>
+      
+        <ul class="navbar-nav mr-5">
+            <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="./so.html" id="navbardrop" data-toggle="dropdown">
+                    Sistemas Operacionais
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="./so.html">O que é</a>
+                    <a class="dropdown-item" href="./so.html">Tipos</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Windows
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="./windows.html#sectionW1">Organização de Pastas</a>
+                    <a class="dropdown-item" href="./windows.html#sectionW2">Comandos para Pastas</a>
+                    <a class="dropdown-item" href="./windows.html#sectionW3">Comandos para Arquivos</a>
+                </div>
+            </li>
+      
+            <li class="nav-item dropdown mr-5">
+                <a class="nav-link dropdown-toggle" href="/linux.html" id="navbardrop" data-toggle="dropdown">
+                    Linux
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="./linux.html#sectionL1">Virtual Box</a>
+                    <a class="dropdown-item" href="./linux.html#sectionL2">Instalação C e C++</a>
+                    <a class="dropdown-item" href="./linux.html#sectionL3">Servidor Web</a>
+                    <a class="dropdown-item" href="./linux.html#sectionL4">Instalação VSCode</a>
+                    <a class="dropdown-item" href="./linux.html#sectionL5">Estrutura Pastas</a>
+                    <a class="dropdown-item" href="./linux.html#sectionL6">Comandos Pastas</a>
+                    <a class="dropdown-item" href="./linux.html#sectionL7">Comandos Arquivos</a>
+                </div>
+            </li>
+        </ul>
+      </nav>
+
+      <section id="sectionL1">
+        <div style="height: 12vh;"></div>
+        <div class="w-60 mr-3 mt-3">
+            <ul style="list-style: none;">
+                <h4>Instalação Virtual Box</h4>
+                
+                <li>
+                    <strong>Passo 1. </strong> Entrar no  link <a href="https://www.virtualbox.org/" target="_blank" rel="noopener noreferrer">https://www.virtualbox.org/</a> e efetuar a instalação do Virtual Box;
+                    
+                    <div class="mt-3">
+                        <img src="./imagens/SiteVirtualBox.png" alt="" class="img">
+                    </div>
+                </li>
+                
+                <li class="d-flex align-items-center mb-2">
+                    <strong class="mr-1">Passo 2. </strong> Quando o processo de instalação for concluído localize o Virtual Box em sua área de trabalho e inicialize ele;
+                </li>
+                
+                <li>
+                    <strong>Passo 3. </strong> Ao abrir o Virtual box, aperte o Botão novo para iniciar o processo de criação de uma nova máquina virtual; 
+                    
+                    <div class="mt-3">
+                        <img src="./imagens/Novo-VB.png" alt="" class="img">
+                    </div>
+                </li>
+                
+                <li class="mt-2">
+                    <strong>Passo 4. </strong> Ao pressionar o botão novo, abrirá um pop-up para iniciar a criação da sua nova máquina virtual. Insira o nome que deseja dar a ela e a pasta em que a mesmo irá se localizar;
+                    <p>Obs.: Ao insirir o nome, colocando o sistema que operacionar que será utilizado a máquina virtual selecionará o tipo e a versão do SO automaticamente.</p> 
+                    
+                    <div class="mt-3">
+                        <img src="./imagens/MV1.png" alt="" class="img">
+                    </div>
+                </li>
+                
+                <li class="mt-2">
+                    <strong>Passo 5. </strong> O próximo passo é definir o tamanho da memória. O tamanho aceitável para conseguir usar o Ubuntu é de 4096MB, mas se tiver mais memória disponível pode aumentar o tamanho;
+                    
+                    <div class="mt-3">
+                        <img src="./imagens/MV2.png" alt="" class="img">
+                    </div>
+                </li>
+                
+                <li class="mt-2">
+                    <strong>Passo 6. </strong> Próximo passo é configurar o disco rígido. Nesse passo será assinalado a opção "criar um novo disco rígido virtual agora" (opção 2);
+                    
+                    <div class="mt-3">
+                        <img src="./imagens/MV3.png" alt="" class="img">
+                    </div>
+                </li>
+                
+                <li class="mt-2">
+                    <strong>Passo 7. </strong> Agora é a configuração do do tipo de arquivo de disco rígido, o qual será assinalada a opção VDI (VirtualBox Disk Image) (opção 1);
+                    
+                    <div class="mt-3">
+                        <img src="./imagens/MV4.png" alt="" class="img">
+                    </div>
+                </li>
+               
+                <li class="mt-2">
+                    <strong>Passo 8. </strong> Em relação ao armazenamento em disco rígido físico será assinalada a opção "Dinamicamente alocado";
+                    
+                    <div class="mt-3">
+                        <img src="./imagens/MV5.png" alt="" class="img">
+                    </div>
+                </li>
+               
+                <li class="mt-2">
+                    <strong>Passo 9. </strong> Agora vamos configurar localização e tamanho do arquivo, nessa etapa vai ser aumentado para 100,00 GB;
+                    
+                    <div class="mt-3">
+                        <img src="./imagens/MV6.png" alt="" class="img">
+                    </div>
+                </li>
+
+                <li class="mt-2">
+                    <strong>Passo 10. </strong> 
+                    Agora nossa máquina virtual já foi criada, para os próximos passos vamos efetuar o download do ubuntu que pode ser feita a partir do site 
+                    <a href="https://ubuntubr.com.br/download/" target="_blank" rel="noopener noreferrer">https://ubuntubr.com.br/download/</a>.;
+                    
+                    <div class="mt-3">
+                        <img src="./imagens/MV7.png" alt="" class="img">
+                    </div>
+                </li>
+
+                <li class="mt-2">
+                    <strong>Passo 11. </strong> 
+                    Efetuado o download, vamos incluir do arquivo no Disco Óptico localizado no tópico "Armazenamento". Ao clicar em cima do "Disco Óptico", vamos
+                    escolher a opção "Escolher uma imagem de disco..." e selecionar o arquivo do Ubutu.
+                    
+                    <div class="mt-3">
+                        <img src="./imagens/MV12.png" alt="" class="img">
+                    </div>
+                </li>
+               
+                <li class="mt-2">
+                    <strong>Passo 12. </strong> 
+                    Podemos inicializar a nossa máquina virtual apertando o botão "iniciar" no menu superior da tela. Ao carregar, vamos parar o próxima passo, que é a instalação do Ubuntu 
+                    na nossa máquina virtual.                    
+                    <div class="mt-3">
+                        <img src="./imagens/MV13.png" alt="" class="img">
+                    </div>
+                </li>
+                
+                <li class="mt-2">
+                    <strong>Passo 13. </strong> 
+                    Efetue a escolha do idioma de sua preferência. Se escolher Português(Brasil), pode efetuar o teste de digitar "ç" e "á" para verificar se o teclado 
+                    está configurado corretamente 
+                    
+                    <div class="mt-3">
+                        <img src="./imagens/MV16.png" alt="" class="img">
+                    </div>
+                </li>
+               
+                <li class="mt-2">
+                    <strong>Passo 13. </strong> 
+                    Na etapa de "Atualizações e outro software", vai ser assinalada o opção "instalação normal" e "Baixar atualização enquanto instala Ubuntu"
+                    
+                    <div class="mt-3">
+                        <img src="./imagens/MV17.png" alt="" class="img">
+                    </div>
+                </li>
+                
+                <li class="mt-2">
+                    <strong>Passo 13. </strong> 
+                    Na etapa de "Tipo de instalação", vai ser assinalada o opção "apagar disco e reinstalar o Ubuntu".
+                    <p>Obs.: Quando aparecer o pop-up perguntando se deseja continuar com uma lista de mudanças, pode seguir.</p>
+                    
+                    <div class="mt-3">
+                        <img src="./imagens/MV21.png" alt="" class="img">
+                    </div>
+                </li>
+                
+                <li class="mt-2">
+                    <strong>Passo 14. </strong> 
+                    Na etapa da instalação vai ser criado também o usuário. Insira o seu nome, escolha um nome para seu usuário e uma senha para efetuar o login.
+                    
+                    <div class="mt-3">
+                        <img src="./imagens/MV26.png" alt="" class="img">
+                    </div>
+                </li>
+
+                <li class="mt-2">
+                    <strong>Passo 15. </strong> 
+                    Após isso é só esperar a instalação e efetuar o login.
+                    
+                    <div class="mt-3">
+                        <img src="./imagens/MV27.png" alt="" class="img">
+                    </div>
+                </li>
+
+          </ul>
+        </div>
+      </section>
+
+      <section id="sectionL2">
+        <div style="height: 15vh;"></div>
+        <div class="w-60 mr-3">
+            <h4>Instalação C e C++ no Ubuntu</h4>
+            
+            <p>
+                As instalações são realizadas pelo terminal do Linux.
+            </p>
+
+            <ul style="list-style: none;" class="mt-4">
+                <li>
+                    <h6>Linguagem C</h6>
+                    <p>Instalação</p>
+                    <div class="cmd">
+                        <pre>sudo apt install gcc </pre>
+                    </div>
+
+                    <p>Verificar Versão</p>
+                    <div class="cmd">
+                        <pre>sudo apt install gcc </pre>
+                    </div>
+                </li>
+                
+                <li>
+                    <h6>Linguagem C ++</h6>
+
+                    <p>Instalação</p>
+                    <div class="cmd">
+                        <pre>sudo apt install g++ </pre>
+                    </div>
+                    
+                    <p>Verificar Versão Instalada</p>
+                    <div class="cmd">
+                        <pre>sudo apt install g++ </pre>
+                    </div>
+                </li>
+            </ul>
+            
+        </div>
+      </section>
+
+      <section id="sectionL3">
+        <div style="height: 15vh;"></div>
+        <div class="w-60 mr-3">
+            <h4>Instalação e uso de servidor web no linux</h4>
+            
+            <p>
+                Realizar a instalação do servidor HTTP Apache. O Apache é um software de código aberto que garante desempenho, estabilidade e segurança para um servidor web.
+            </p>
+
+            <ul style="list-style: none;" class="mt-4">
+                <li>
+                    
+                    <h6>UPDATE  e UPGRADE</h6>
+                    <p>Antes de começar é importante executar o comando Update e Upgrade para deixar seu SO atualizado.</p>
+                    
+                    <p><strong>UPDATE</strong>: Usado para baixar as atualizações e informações dos pacotes de todas as fontes (repositórios) configurados.</p>
+                    <div class="cmd">
+                        <pre>sudo apt update</pre>
+                    </div>
+
+                    <p><strong>UPGRADE</strong>: Usado para instalar as atualizações disponíveis dos pacotes instalados atualmente no sistema. Novos pacotes vão ser instalados, se for necessário, para suprir qualquer dependência. </p>
+                    <div class="cmd">
+                        <pre>sudo apt upgrade</pre>
+                    </div>
+
+                    <h6>Instalação Apache</h6>
+                    <div class="cmd">
+                        <pre>sudo apt install apache2</pre>
+                    </div>
+
+                    <p>Verificar index.html - página hospedada do servidor HTTP</p>
+                    <div class="cmd">
+                        <pre>$ cd var</pre>
+                        <pre>$ cd www</pre>
+                        <pre>$ cd html</pre>
+                        <pre>$ ls</pre>
+                        <pre>   index.html</pre>
+                    </div>
+                </li>
+               
+                <li> 
+                    <h6>Liberação de serviço web no firewall no Linux</h6> 
+                    <p><strong>Passo 1</strong>: Abra o terminal e execute os seguintes comandos para liberar o firewall </p>
+                    <div class="cmd">
+                        <pre>$ sudo ufw allow 'apache'</pre>
+                    </div>
+                    
+                    <p><strong>Passo 2</strong>: Verifique o status de serviço apache</p>
+                    <div class="cmd">
+                        <pre>$ sudo systemctl status apache 2</pre>
+                    </div>
+                   
+                    <p><strong>Passo 3</strong>: Entre na pasta html</p>
+                    <div class="cmd">
+                        <pre>cd /var/www/html</pre>
+                    </div>
+                    
+                    <p><strong>Passo 3</strong>: Escolha a permissão que deseja</p>
+                    <div class="cmd">
+                        <pre>$ sudo chmod 777 (Acesso livre de restrições a todos)</pre>
+                        <pre>$ sudo chmod 744 (Acesso total para o User e leitura para os demais)</pre>
+                        <pre>$ sudo chmod 100 arquivo (Somente o User pode ter acesso (total) ao arquivo)</pre>
+                    </div>
+
+                    <p><strong class="text-danger">Perigo: </strong> O maior perigo do chmod 777 -R é quando o comando é aplicado a um diretório crucial do sistema, como o root (/), o que implicaria acesso livre de restrições a todos.</p>
+                </li>
+            </ul>
+            
+        </div>
+      </section>
+
+      <section id="sectionL4">
+        <div style="height: 15vh;"></div>
+        <div class="w-60 mr-3">
+          <h4>Instalando o Visual Studio Code</h4>
+    
+          <ul style="list-style: none;" class="mt-4">
+            <li>
+                <p><strong>Passo 1</strong>: Execute update e upgrade os atualizar pacotes do sistema</p>
+                <div class="cmd">
+                    <pre>sudo apt update</pre>
+                    <pre>sudo apt upgrade</pre>
+                </div>
+                
+                <p><strong>Passo 2</strong>: Entre no Software Ubuntu e localize o Visual Studio Code para baixá-lo</p>
+                <div class="mt-3">
+                    <img src="/imagens/vsCode.png" alt="" class="img">
+                </div>
+            </li>
+        </ul>
+        </div>
+      </section>
+
+      <section id="sectionL5">
+        <div style="height: 15vh;"></div>
+        <div class="w-60 mr-3">
+            <h4>Estrutura de pastas</h4>
+    
+            <ul>
+              <li><strong>/ </strong>: Diretório raiz. </li>
+              <li><strong>~ </strong>: Diretório usuário. </li>
+              <li><strong>/bin </strong>: Diretório onde estão os arquivos  executáveis e comandos essenciais do sistema. </li>
+              <li><strong>/boot </strong>: Diretório onde estão os arquivos necessários para iniciar o sistema. Aqui é onde fica localizada a imagem do Kernel do Linux. </li>
+              <li><strong>/dev </strong>: Diretório onde estão os arquivos de dispositivos do sistema, como discos, cd-roms, terminais etc. </li>
+              <li><strong>/etc </strong>: Diretório onde estão localizados os arquivos de configuração do sistema.</li>
+              <li><strong>/home </strong>: Diretório que geralmente é usado  pelos usuários.</li>
+              <li><strong>/lib </strong>: Diretório onde estão localizadas as bibliotecas essenciais ao sistema, utilizadas pelos programas em /bin e módulos do Kernel. </li>
+              <li><strong>/mnt </strong>: Diretório vazio. Este diretório geralmente é utilizado para pontos de montagem de dispositivos.</li>
+              <li><strong>/proc </strong>: Diretório que possui informações do Kernel e de processos.</li>
+              <li><strong>/opt </strong>: Diretório onde estão localizados os aplicativos instalados que não venham com o Linux.</li>
+              <li><strong>/root </strong>: Diretório do superusuários(root). Em algumas distribuições ele pode ou não estar presente. </li>
+              <li><strong>/sbin </strong>: Diretório onde estão os arquivos essenciais do sistema, como aplicativos, utilitários para administração do sistema. Normalmente só o superusuário(root) tem acesso aos arquivos.</li>
+              <li><strong>/tmp </strong>: Diretório de arquivos temporários.</li>
+              <li><strong>/usr </strong>: Diretório de arquivos pertencentes aos usuários e a segunda maior hierarquia de diretórios no Linux.</li>
+              <li><strong>/var </strong>: Diretório onde são guardadas informações variáveis ao sistema, como arquivos de logs etc…</li>
+            </ul>
+        </div>
+      </section>
+
+      <section id="sectionL6">
+        <div style="height: 15vh;"></div>
+        <div class="w-60 mr-3">
+          <h4>Comandos para navegação e manipulação de pastas</h4>
+    
+          <ul>
+            <li><strong>(qualquer comando) --help</strong> : mostra o HELP (arquivo de ajuda) do comando que você digitou</li>
+            <div class="cmd">
+              <pre>ls --help</pre>
+            </div>
+
+            <li><strong>ls</strong> : lista os arquivos e diretórios da pasta;</li>
+            <div class="cmd">
+              <pre>ls</pre>
+            </div>
+
+            <li><strong>clear</strong> : limpa a tela;</li> 
+            <div class="cmd">
+              <pre>clear</pre>
+            </div>
+
+            <li><strong>cd ___</strong> : Entra em um diretório;</li>
+            <div class="cmd">
+              <pre>cd diretorio</pre>
+            </div>
+
+            <li><strong>cd</strong> : Vai direto para o diretório raiz do usuário conectado;</li> 
+            <div class="cmd">
+              <pre>cd</pre>
+            </div>
+
+            <li><strong>pwd</strong> : Mostra o caminho da pasta em que você está;</li> 
+            <div class="cmd">
+              <pre>pwd</pre>
+            </div>
+           
+            <li><strong>update</strong> : Usado para baixar as atualizações e informações dos pacotes de todas as fontes (repositórios) configurados.</li> 
+            <div class="cmd">
+                <pre>sudo apt update</pre>
+            </div>
+            
+            <li><strong>upgrade</strong> : Usado para instalar as atualizações disponíveis dos pacotes instalados atualmente no sistema. Novos pacotes vão ser instalados, se for necessário, para suprir qualquer dependência.</li> 
+            <div class="cmd">
+                <pre>sudo apt upgrade</pre>
+            </div>
+           
+            <li><strong>rmdir</strong> : Remove um diretório vazio</li> 
+            <div class="cmd">
+                <pre>rmdir [nom_do_diretório]</pre>
+            </div>
+
+            <li><strong>mkdir</strong> : Criar diretório</li>
+            <div class="cmd">
+                <pre>mkdir [nome_do_diretório]</pre>
+            </div>
+          </ul>
+        </div>
+      </section>
+
+      <section id="sectionL7">
+        <div style="height: 15vh;"></div>
+        <div class="w-60 mr-3">
+            <h4>Comandos para manipulação de arquivos</h4>
+    
+            <ul>
+                
+                <li><strong>ls</strong> : Listar arquivos</li>
+                <div class="cmd">
+                    <pre>ls [opções] [arquivo/diretório]</pre>
+                </div>
+                
+                <li><strong>cp</strong> : Cópia de arquivos e diretórios</li>
+                <div class="cmd">
+                    <pre>cp [opções] [arquivo_origem] [arquivo_destino]</pre>
+                </div>
+
+                <li><strong>mv</strong> : Move arquivos e diretórios</li>
+                <div class="cmd">
+                    <pre>mv [arquivo_origem] [arquivo_destino]</pre>
+                </div>
+
+                <li><strong>rm</strong> : Deleta arquivos e diretórios</li>
+                <div class="cmd">
+                    <pre>rm [opções] [arquivo]</pre>
+                </div>
+
+                <li><strong>file</strong> : Indica tipo de arquivo</li>
+                <div class="cmd">
+                    <pre>file [arquivo]</pre>
+                </div>
+
+                <li><strong>cat</strong> : Criar arquivo</li>
+                <div class="cmd">
+                    <pre>cat > teste.txt</pre>
+                </div>
+                
+                <li><strong>touch</strong> : Criar arquivo</li>
+                <div class="cmd">
+                    <pre>touch main.txt</pre>
+                </div>
+               
+                <li><strong>nano</strong> : Abrir arquivo</li>
+                <div class="cmd">
+                    <pre>nano main.txt</pre>
+                </div>
+            </ul>
+        </div>
+      </section>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

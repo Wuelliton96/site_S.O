@@ -1,0 +1,28 @@
+body {
+    background-color: #F9F9F9;
+}
+
+section {
+    width: 100%;
+    padding: 0 20px;
+}
+
+h4 {
+    text-transform: uppercase;
+}
+
+#sectionW2 img {
+    height: 80vh;
+}
+
+.cmd {
+    width: 70%;
+    padding: 15px;
+    background-color: #343434;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.cmd pre {
+    color: #fff;
+}
